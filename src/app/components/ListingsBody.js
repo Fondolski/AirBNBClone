@@ -9,11 +9,11 @@ export default function ListingsBody({pageType}) {
         
         <div className="w-full h-full items-center bg-white z-20 justify-center border-t z-20 mt-10 flex flex-wrap ">
             {
-            dummyData.data.map((item)=> {
+            dummyData.data.map((item, i)=> {
                 return(
                     
 
-                    <DetailsContainer item={item} />
+                    <DetailsContainer key={i} item={item} />
                 )
             })}</div>
             

@@ -1,9 +1,9 @@
 export default function RoomDetails({dummyArray}) {
     return (
         <div className='flex flex-row w-11/12 max-w-xl p-1'>
-            {dummyArray[0].info.details.data.map((item)=> {
+            {dummyArray[0].info.details.data.map((item, i)=> {
             return (
-                <div className='flex flex-row items-center justify-center mr-2'>
+                <div key={i} className='flex flex-row items-center justify-center mr-2'>
                     <div>
                     {item.type}
                     </div>

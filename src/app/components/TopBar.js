@@ -4,7 +4,7 @@ import { BsPersonCircle } from "react-icons/bs";
 import { MdMenu } from "react-icons/md";
 import Link from 'next/link';
 
-export default function () {
+export default function TopBar () {
     return(
         <div className='flex flex-row border-b items-center justify-between w-11/12 md:w-full md:px-20 mt-5 md:mt-0 md:py-10 pb-2 md:py-5'>
             <div className='invisible absolute md:visible md:relative cursor-pointer'>

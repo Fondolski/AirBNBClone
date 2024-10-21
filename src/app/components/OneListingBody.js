@@ -73,7 +73,7 @@ export default function OneListingBody({dummyArray, dummyArrayLoading}) {
                 <SleepingArrangements dummyArray={dummyArray} />
                 <AmenitiesSection newArrayAmenities={newArrayAmenities} dummyArray={dummyArray} />
                 <div className='p-1 mb-5'>
-                    <p className='font-semibold'>Where you'll be</p>
+                    <p className='font-semibold'>{`Where you'll be`}</p>
                 </div>
                 <MapComponent dummyArray={dummyArray} pageType={pageType}/>
                 
