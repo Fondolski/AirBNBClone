@@ -8,7 +8,7 @@ import { IoTrophy } from "react-icons/io5";
 import {GoogleMap, Marker, useJsApiLoader} from '@react-google-maps/api';
 import MapComponent from './MapComponent';
 import DescriptionComponent from './DescriptionComponent';
-import SleepingArrangements from './SleepingArrangeMents';
+import SleepingArrangements from './SleepingArrangements';
 import PhotosSection from './PhotosSection';
 import TitleHeader from './TitleHeader';
 import RoomDetails from './RoomDetails';
