@@ -20,7 +20,7 @@ export default function TitleHeader({dummyArray}) {
                             <div>
                                 <div className='flex flex-row items-center'>
                                     <IoTrophy />
-                                    <p>Supperhost</p>
+                                    <p>Superhost</p>
                                 </div>
                             </div>: <div></div>}
                         </div>
